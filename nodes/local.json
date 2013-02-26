@@ -1,4 +1,8 @@
 {
+    "user": {
+        "name": "ryshinoz",
+        "home": "/Users/ryshinoz"
+    },
     "run_list": [
         "recipe[homebrew]",
         "recipe[homebrew-package]",

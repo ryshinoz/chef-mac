@@ -13,7 +13,8 @@
             "rbenv",
             "ruby-build",
             "openssl",
-            "readline"
+            "readline",
+            "gauche"
         ]
     },
     "ruby": {

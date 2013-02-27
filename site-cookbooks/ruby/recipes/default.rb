@@ -21,7 +21,7 @@ node.ruby.versions.each do |version|
     })
     not_if do
       IO.popen('rbenv versions').entries.select { |entry|
-        entry =~ /#{version}$/
+        entry =~ /#{version}/
       }.size == 1
     end
   end

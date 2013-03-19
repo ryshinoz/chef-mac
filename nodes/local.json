@@ -14,7 +14,8 @@
             "ruby-build",
             "openssl",
             "readline",
-            "gauche"
+            "gauche",
+            "mysql"
         ]
     },
     "ruby": {
